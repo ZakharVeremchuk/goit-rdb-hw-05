@@ -23,7 +23,7 @@ RETURNS FLOAT
 DETERMINISTIC
 NO SQL
 BEGIN
-	DECLARE result INT;
+	DECLARE result FLOAT;
     SET result = num1 / num2;
     RETURN result;
 END //
